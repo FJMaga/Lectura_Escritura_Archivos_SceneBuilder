@@ -1,0 +1,1 @@
+El Empleado 666 se ha crerado con éxito. ( DATOS [ Fecha : 666, Ciudad : 6666, Salario : 6666 ] )

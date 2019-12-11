@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MenuController">
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="42.0" layoutY="27.0" text="Seleccione opción" />
+            <Separator layoutY="52.0" prefWidth="200.0" />
+            <RadioButton fx:id="opcionXml" layoutX="46.0" layoutY="71.0" mnemonicParsing="false" onAction="#menu" text="XML" />
+            <RadioButton fx:id="opcionJson" layoutX="46.0" layoutY="107.0" mnemonicParsing="false" onAction="#menu" text="JSON" />
+            <RadioButton fx:id="opcionTxt" layoutX="46.0" layoutY="147.0" mnemonicParsing="false" onAction="#menu" text="TXT" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MenuController">
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="42.0" layoutY="27.0" text="Seleccione opción" />
+            <Separator layoutY="50.0" prefWidth="200.0" />
+            <RadioButton fx:id="opcionXml" layoutX="14.0" layoutY="53.0" mnemonicParsing="false" onAction="#menu" text="XML" textFill="#0808f1" textOverrun="CLIP">
+               <font>
+                  <Font name="Garuda Bold" size="22.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets></RadioButton>
+            <RadioButton fx:id="opcionJson" layoutX="14.0" layoutY="95.0" mnemonicParsing="false" onAction="#menu" text="JSON" textFill="#0808f1" textOverrun="CLIP">
+               <font>
+                  <Font name="Garuda Bold" size="22.0" />
+               </font></RadioButton>
+            <RadioButton fx:id="opcionTxt" layoutX="14.0" layoutY="137.0" mnemonicParsing="false" onAction="#menu" text="TXT" textFill="#0808f1" textOverrun="CLIP">
+               <font>
+                  <Font name="Garuda Bold" size="22.0" />
+               </font></RadioButton>
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
